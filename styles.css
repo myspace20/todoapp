@@ -1,0 +1,103 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: peru;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Josefin sans;
+        background-color: peru;
+    }
+    .text{
+        text-decoration:none;
+    }
+
+    .header{
+        width: 100%;
+    }
+    small {
+        padding: 10px;
+        color: #FFFFFF;
+        display: none;
+    }
+
+    .header h1{
+        padding: 20px;
+        text-align: center;
+        color: #3F3F3F;
+    }
+    .form{
+        padding: 20px;
+        text-align: center;
+    }
+    .form input{
+        padding: 20px 40px;
+        border-radius: 40px;
+        border: 1px solid #FEBD44;
+        color:white;
+        background-color:#FEBD44;
+        font-size: large;
+        font-family: Josefin sans;
+        outline: none;
+    }
+    input::placeholder{
+        color: #FFFFFF;
+        font-size: large;
+        font-family: Josefin sans;
+    }
+
+
+    .filtered{
+        display: none !important;
+    }
+    
+    .todo-list{
+        padding: 20px;
+    }
+    .controls{
+        text-align: center;
+        margin: none;
+    }
+    button{
+        background-color: #FEBD44;
+        border-radius: 20px;
+        padding: 18px;
+        font-family: Josefin sans;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid #f0aa26;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    button:hover{
+        cursor: pointer;
+        background-color: #3F3F3F;
+        border: #3F3F3F;
+    }
+    li {
+        list-style: none;
+        background: #f46b45;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: auto;
+        border-radius: 20px;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        font-size: large;
+        min-width: 280px;
+    }
+    li *{
+        padding: 10px;
+        text-align: center;
+        color: #FFFFFF;
+    }
